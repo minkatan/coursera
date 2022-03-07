@@ -1,0 +1,51 @@
+/********** Base styles **********/
+
+a{
+  color: var(--bs-black);
+}
+
+a:hover{
+  color: var(--bs-black);
+}
+
+button{
+  margin:5px;
+}
+
+.navbar {
+  background: var(--bs-gray-500);
+  border-style: solid;
+  border-width: 5px;
+}
+
+.navbar-brand{
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#nav-list{
+  align-text: center;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu-item{
+  background: var(--bs-gray-300);
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+}
+
+@media (max-width: 767px) {
+  .btn{
+    display:block;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn{
+    display:none;
+  }
+}
