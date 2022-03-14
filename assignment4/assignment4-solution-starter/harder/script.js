@@ -47,8 +47,10 @@ for (let i = 0; i < names.length; i++) {
   let text;
   if (firstLetter === "J") {
     // byeSpeaker.xxxx
-    text = byeSpeaker.speak(names[i]);
+    byeSpeaker.speak(names[i]);
+    text = byeSpeaker.speak(names[i]);  
   } else {
+    HelloSpeaker.speak(names[i]);
     text = HelloSpeaker.speak(names[i]);
   }
   messages.innerHTML += `<p>${text}</p>`

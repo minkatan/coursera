@@ -19,6 +19,7 @@
   // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
   var speakWord = "Hello";
     HelloSpeaker.speak = function(name){
+        console.log(speakWord + " " + name);
         return (speakWord + " " + name);
         }
       window.HelloSpeaker = HelloSpeaker
