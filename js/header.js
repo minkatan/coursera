@@ -13,13 +13,13 @@ class Header extends HTMLElement {
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="aboutme.html">About Me</a>
+        <a class="nav-link" href=".././aboutme.html">About Me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="carousel.html">Places I Love</a>
+        <a class="nav-link" href=".././html/carousel.html">Places I Love</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="coffee.html">Coffee</a>
+        <a class="nav-link" href=".././html/coffee.html">Coffee</a>
       </li>
     </ul>
   </div>
